@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.header li {
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+}
