@@ -7,10 +7,10 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <header className="flex justify-between">
+    <header className={styles.header}>
       <Image src="/vercel.svg" width={100} height={24} alt="logo" />
       <nav>
-        <ul className="flex list-none justify-evenly [&>li]:bg-red-600">
+        <ul>
           <li>about</li>
           <li>blog</li>
           <li>contact</li>

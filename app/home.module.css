@@ -13,12 +13,10 @@
   margin: 0;
   gap: 0.7rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .header li {
-  padding: 0.5rem;
+  padding: 0.4rem;
   border-radius: 0.4rem;
-  background: var(--color-main-200);
-  color: var(--color-main-900);
 }
