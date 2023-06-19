@@ -1,7 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  padding: 1rem;
+  min-height: 100dvh;
 }
 
-:root {
-  --color-main-100: red;
+@layer base {
+  * {
+    @apply text-zinc-600
+  }
+  p {
+    @apply mb-7 font-[600] 
+  }
 }
